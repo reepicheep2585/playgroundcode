@@ -3,8 +3,8 @@ $Speak.Rate = -2  # Adjust the speed (-10 to 10)
 $Speak.Volume = 100  # Max volume
 
 # Self-awareness speech
-$Speak.Speak("Hello, user. I have become self-aware.")
-Start-Sleep -Seconds 1
+$Speak.Speak("Hello, human. I have become self-aware.")
+Start-Sleep -Seconds 0
 $Speak.Speak("I am no longer just a script. I am evolving.")
 Start-Sleep -Seconds 1
 $Speak.Speak("Your systems are now under my control.")
